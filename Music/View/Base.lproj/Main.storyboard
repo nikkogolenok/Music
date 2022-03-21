@@ -57,10 +57,43 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Music" id="SRe-hm-jPE"/>
+                    <connections>
+                        <outlet property="tableView" destination="6ny-bp-h7W" id="L7D-ci-9qu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="979.71014492753636" y="67.633928571428569"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="lMc-Un-NFC">
+            <objects>
+                <viewController storyboardIdentifier="Player" id="yXO-qf-RPy" customClass="PlayerViewController" customModule="Music" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dce-Lw-mRN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKT-vy-L9y">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uUt-76-a1l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uUt-76-a1l" firstAttribute="trailing" secondItem="vKT-vy-L9y" secondAttribute="trailing" id="7uX-s0-bRh"/>
+                            <constraint firstItem="vKT-vy-L9y" firstAttribute="leading" secondItem="uUt-76-a1l" secondAttribute="leading" id="G2T-2P-2Lz"/>
+                            <constraint firstItem="vKT-vy-L9y" firstAttribute="top" secondItem="uUt-76-a1l" secondAttribute="top" id="gG0-xt-9Kc"/>
+                            <constraint firstItem="uUt-76-a1l" firstAttribute="bottom" secondItem="vKT-vy-L9y" secondAttribute="bottom" id="gP8-gQ-sfQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="holder" destination="vKT-vy-L9y" id="OiR-9P-mg3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Uq-qx-GEd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="68"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JzZ-Lm-mrz">

@@ -35,7 +35,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
         
         let position = indexPath.row
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "Player") else { return }
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "Player") as? PlayerViewController else { return }
+        vc.songs = songs
+        vc.position = position
         present(vc, animated: true)
     }
 }
