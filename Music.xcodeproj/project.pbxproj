@@ -18,6 +18,7 @@
 		44E410AC27E9282700A66BB6 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44E410A927E9282700A66BB6 /* song1.mp3 */; };
 		44E410AE27E92AA200A66BB6 /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E410AD27E92AA200A66BB6 /* ViewController+Ext.swift */; };
 		44E410B127E92B9F00A66BB6 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E410B027E92B9F00A66BB6 /* Song.swift */; };
+		44E410B427E9354A00A66BB6 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E410B327E9354A00A66BB6 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		44E410A927E9282700A66BB6 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		44E410AD27E92AA200A66BB6 /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
 		44E410B027E92B9F00A66BB6 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		44E410B327E9354A00A66BB6 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				44E410A427E9266400A66BB6 /* Extension */,
 				44E410AF27E92B9400A66BB6 /* Model */,
 				44E410A227E9260000A66BB6 /* Controllers */,
+				44E410B227E934E700A66BB6 /* Cell */,
 				44E410A327E9261000A66BB6 /* View */,
 			);
 			path = Music;
@@ -91,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				44E4109127E9256700A66BB6 /* ViewController.swift */,
+				44E410B327E9354A00A66BB6 /* PlayerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -128,6 +132,13 @@
 				44E410B027E92B9F00A66BB6 /* Song.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		44E410B227E934E700A66BB6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				44E410AE27E92AA200A66BB6 /* ViewController+Ext.swift in Sources */,
 				44E4109027E9256700A66BB6 /* SceneDelegate.swift in Sources */,
 				44E410B127E92B9F00A66BB6 /* Song.swift in Sources */,
+				44E410B427E9354A00A66BB6 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

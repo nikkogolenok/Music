@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     // MARK: - Methods
-    private func createDelegate() {
+    func createDelegate() {
         tableView.delegate = self
         tableView.dataSource = self
     }
