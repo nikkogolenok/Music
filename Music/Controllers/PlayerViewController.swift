@@ -132,7 +132,7 @@ class PlayerViewController: UIViewController {
         let yPosition = artistNameLabel.frame.origin.y + 20 + 70
         let size: CGFloat = 80
         
-        playPauseButton.frame = CGRect(x: (holder.frame.size.width - size) / 2.9,
+        playPauseButton.frame = CGRect(x: (holder.frame.size.width - size) / 2.0,
                                        y: yPosition,
                                        width: size,
                                        height: size)
@@ -155,7 +155,7 @@ class PlayerViewController: UIViewController {
         // Styling
         playPauseButton.setBackgroundImage(UIImage(systemName: "pause.fill"), for: .normal)
         nextButton.setBackgroundImage(UIImage(systemName: "forward.fill"), for: .normal)
-        backButton.setBackgroundImage(UIImage(systemName: "back.fill"), for: .normal)
+        backButton.setBackgroundImage(UIImage(systemName: "backward.fill"), for: .normal)
         
         playPauseButton.tintColor = .black
         nextButton.tintColor = .black
